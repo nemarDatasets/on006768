@@ -1,4 +1,4 @@
-participant_id	gender_identity	age	visaul_accuity	handedness	cap_size	date
+participant_id	gender_identity	age	visual_accuity	handedness	cap_size	date
 sub-01	a woman	25	normal	right	56	19/10/2023
 sub-02	a man	19	normal	right	58	25/10/2023
 sub-03	a woman	18	normal	right	56	25/10/2023
