@@ -1,6 +1,6 @@
 {
     "Name": "Multiple Object Monitoring (EEG)",
-    "BIDSVersion": "1.15.1",
+    "BIDSVersion": "1.3",
     "DatasetType": "raw",
     "Authors": [
         "Benjamin G. Lowe",
