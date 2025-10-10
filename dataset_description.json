@@ -1,0 +1,11 @@
+{
+    "Name": "Multiple Object Monitoring (EEG)",
+    "BIDSVersion": "1.15.1",
+    "DatasetType": "raw",
+    "Authors": [
+        "Benjamin G. Lowe",
+        "Alexandra Woolgar",
+        "Sophie Smit",
+        "Anina N. Rich"
+    ]
+}
