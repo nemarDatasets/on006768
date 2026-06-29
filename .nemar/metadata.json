@@ -1,0 +1,31 @@
+{
+  "version": "2.0",
+  "dataset_id": "on006768",
+  "source": "openneuro",
+  "source_id": "ds006768",
+  "title": "Multiple Object Monitoring (EEG)",
+  "authors": {
+    "Benjamin G. Lowe": {},
+    "Alexandra Woolgar": {},
+    "Sophie Smit": {},
+    "Anina N. Rich": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds006768.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.11.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "acknowledgements": "This work was supported by an Australian Research Council (ARC) Discovery Project grant awarded to ANR and AW (DP220101067). ANR is supported by an ARC Future Fellowship (FT230100119). AW was supported by MRC (U.K) intramural funding SUAG/093/G116768. We thank Kendall Stead, Brooklyn Gordon, and Kayla Rail for their assistance during data collection."
+}
