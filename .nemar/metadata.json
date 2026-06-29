@@ -1,31 +1,95 @@
 {
   "version": "2.0",
-  "dataset_id": "on006768",
-  "source": "openneuro",
-  "source_id": "ds006768",
+  "pipeline_stage": "validated",
   "title": "Multiple Object Monitoring (EEG)",
-  "authors": {
-    "Benjamin G. Lowe": {},
-    "Alexandra Woolgar": {},
-    "Sophie Smit": {},
-    "Anina N. Rich": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Benjamin G. Lowe": {
+      "orcid": "0000-0002-0474-3392"
+    },
+    "Alexandra Woolgar": {},
+    "Sophie Smit": {
+      "orcid": "0000-0002-5613-277X"
+    },
+    "Anina N. Rich": {}
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006768.v1.1.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006768",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006768",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2025.07.10.663816",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.11.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "11.9 GB (580 files)"
   ],
-  "acknowledgements": "This work was supported by an Australian Research Council (ARC) Discovery Project grant awarded to ANR and AW (DP220101067). ANR is supported by an ARC Future Fellowship (FT230100119). AW was supported by MRC (U.K) intramural funding SUAG/093/G116768. We thank Kendall Stead, Brooklyn Gordon, and Kayla Rail for their assistance during data collection."
+  "formats": [
+    ".csv",
+    ".edf",
+    ".fif",
+    ".gz",
+    ".jasp",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".py",
+    ".pyc",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset comprises electroencephalography (EEG) recordings from 30 subjects performing a Multiple Object Monitoring (MOM) task. The MOM task is a visual attention paradigm requiring simultaneous tracking of multiple moving objects. EEG data were collected to investigate neural correlates of divided attention and object tracking mechanisms during dynamic visual scenes.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "multiple object tracking"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "event-related potentials"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Australian Research Council",
+      "award_number": "DP220101067"
+    },
+    {
+      "funder_name": "Australian Research Council",
+      "award_number": "FT230100119"
+    },
+    {
+      "funder_name": "Medical Research Council",
+      "award_number": "SUAG/093/G116768"
+    }
+  ],
+  "source_hash": "b005b04634a0cffe940caa1baf19ca3aa23ce29d0c7c2f23fc46d80f1d857f6f"
 }
