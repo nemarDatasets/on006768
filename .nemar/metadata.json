@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Multiple Object Monitoring (EEG)",
+  "description": "This dataset comprises EEG recordings from 30 participants who performed a Multiple Object Monitoring (MOM) task, designed to investigate attentional tracking of multiple moving objects. The data were collected to examine the neural correlates underlying dynamic attention allocation and object monitoring processes. The dataset is intended for use in cognitive neuroscience research on visual attention and working memory.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,6 +15,25 @@
     },
     "Anina N. Rich": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
+    },
+    {
+      "term": "multiple object tracking"
+    },
+    {
+      "term": "visual attention"
+    },
+    {
+      "term": "cognitive neuroscience"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006768.v1.1.0",
@@ -33,14 +53,28 @@
     {
       "identifier": "10.1101/2025.07.10.663816",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "IsSupplementTo"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Australian Research Council",
+      "award_number": "DP220101067"
+    },
+    {
+      "funder_name": "Australian Research Council",
+      "award_number": "FT230100119"
+    },
+    {
+      "funder_name": "Medical Research Council",
+      "award_number": "SUAG/093/G116768"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "11.9 GB (580 files)"
   ],
@@ -58,38 +92,6 @@
     ".pyc",
     ".tsv",
     ".yml"
-  ],
-  "description": "This dataset comprises electroencephalography (EEG) recordings from 30 subjects performing a Multiple Object Monitoring (MOM) task. The MOM task is a visual attention paradigm requiring simultaneous tracking of multiple moving objects. EEG data were collected to investigate neural correlates of divided attention and object tracking mechanisms during dynamic visual scenes.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "attention"
-    },
-    {
-      "term": "multiple object tracking"
-    },
-    {
-      "term": "visual perception"
-    },
-    {
-      "term": "event-related potentials"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "Australian Research Council",
-      "award_number": "DP220101067"
-    },
-    {
-      "funder_name": "Australian Research Council",
-      "award_number": "FT230100119"
-    },
-    {
-      "funder_name": "Medical Research Council",
-      "award_number": "SUAG/093/G116768"
-    }
   ],
   "source_hash": "b005b04634a0cffe940caa1baf19ca3aa23ce29d0c7c2f23fc46d80f1d857f6f"
 }
