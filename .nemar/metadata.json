@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Multiple Object Monitoring (EEG)",
-  "description": "This dataset comprises EEG recordings from 30 participants who performed a Multiple Object Monitoring (MOM) task, designed to investigate attentional tracking of multiple moving objects. The data were collected to examine the neural correlates underlying dynamic attention allocation and object monitoring processes. The dataset is intended for use in cognitive neuroscience research on visual attention and working memory.",
+  "description": "This dataset contains EEG recordings from 30 participants performing a Multiple Object Monitoring (MOM) task, in which observers sustain attention to moving stimuli. The recordings were collected to investigate whether EEG can detect lapses in sustained attention. The data are organized according to the BIDS standard.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,18 +20,18 @@
       "term": "EEG"
     },
     {
+      "term": "sustained attention"
+    },
+    {
+      "term": "multiple object monitoring"
+    },
+    {
+      "term": "attention lapses"
+    },
+    {
       "term": "Attention",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
-    },
-    {
-      "term": "multiple object tracking"
-    },
-    {
-      "term": "visual attention"
-    },
-    {
-      "term": "cognitive neuroscience"
     }
   ],
   "related_identifiers": [
@@ -53,7 +53,7 @@
     {
       "identifier": "10.1101/2025.07.10.663816",
       "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -76,7 +76,7 @@
     "eeg"
   ],
   "sizes": [
-    "11.9 GB (580 files)"
+    "11.12 GB (580 files)"
   ],
   "formats": [
     ".csv",
